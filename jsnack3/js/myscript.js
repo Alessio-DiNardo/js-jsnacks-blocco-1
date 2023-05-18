@@ -4,13 +4,16 @@
 
 let array = [];
 
-const userNumber = 6;
+const number = 6;
+
+let userNumber = prompt("insert you number");
+
 
 
 for( let i = 0; i < userNumber; i++ ){
 
     if (userNumber % 2 == 1){
-        array.push(prompt("insert one number"))
+        array.push();
     }
 }
 
