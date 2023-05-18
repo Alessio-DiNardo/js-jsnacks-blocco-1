@@ -8,3 +8,14 @@ const userList = prompt("inserisci il tuo nome");
 
 let isNameFound = false;
 
+for( let i = 0; i < partyList.length; i++){
+    console.log(i, partyList[i]);
+} if (userList === partyList){
+    isNameFound = true;
+}
+
+if ( isNameFound ) {
+    console.log("Enter valid");
+} else {
+    console.log("Enter notvalid");
+}
