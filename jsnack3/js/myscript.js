@@ -13,7 +13,7 @@ let userNumber = prompt("insert you number");
 for( let i = 0; i < userNumber; i++ ){
 
     if (userNumber % 2 == 1){
-        array.push();
+        array.push(userNumber);
     }
 }
 
