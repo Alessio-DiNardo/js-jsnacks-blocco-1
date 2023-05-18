@@ -8,6 +8,10 @@ const userNumber = 6;
 
 
 for( let i = 0; i < userNumber; i++ ){
-    array.push(prompt("insert one number"))
+
+    if (userNumber % 2 == 1){
+        array.push(prompt("insert one number"))
+    }
 }
+
 console.log(array);
