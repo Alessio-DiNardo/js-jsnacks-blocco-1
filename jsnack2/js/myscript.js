@@ -8,7 +8,7 @@ const userList = prompt("inserisci il tuo nome");
 
 let isNameFound = false;
 
-for( let i = 0; i < partyList.length - 1; i++){
+for( let i = 0; i < partyList.length; i++){
     console.log(i, partyList[i]);
 if (userList === partyList [i]){
     isNameFound = true;
